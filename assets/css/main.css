@@ -1,0 +1,31 @@
+:root {
+  --beige: #f6efe7;
+  --beige-dark: #e7dacb;
+  --text-main: #7a6a58;
+  --text-soft: #9a8b7a;
+  --button-bg: #efe3d6;
+  --button-text: #7a6a58;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: #4b2f34; /* extérieur téléphone */
+  color: var(--text-main);
+}
+
+
+button {
+  font-family: inherit;
+  border: none;
+  border-radius: 18px;
+  padding: 14px 28px;
+  background: var(--button-bg);
+  color: var(--button-text);
+  font-size: 15px;
+  cursor: pointer;
+}
