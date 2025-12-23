@@ -14,7 +14,7 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  background: #4b2f34; /* extérieur téléphone */
+  background: var(--beige); /* 🔑 beige doux global */
   color: var(--text-main);
 }
 
